@@ -1,66 +1,129 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Contact | Daniel Mata</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dannys Page - Contact</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="public/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="public/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="public/js/init.js"></script>
+  <script src="public/js/index.js"></script>
 
 </head>
 
-<body>
-  <header id="masthead">
-    <nav class="navbar navbar-expand-lg navbar-success bg-light">
-      <a class="navbar-brand" href="#">Daniel Mata</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-          <a class="nav-item nav-link active text-success" href="index.html">About Me <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link text-danger" href="contact.html">Contact</a>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
+<header>
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+</header>
+
+
+<ul id="slide-out" class="sidenav">
+  <li>
+    <div class="user-view">
+      <div class="background">
+        <img src="https://i.ndtvimg.com/i/2017-10/thali_650x400_61508157304.jpg">
       </div>
-    </nav>
-  </header>
+      <a href="#name"><span class="white-text name">Daniel Mata</span></a>
+      <a href="#email"><span class="white-text email">dmata62087@gmail.com</span></a>
+    </div>
+    <li><a class="waves-effect waves-red" href="index.html">Home</a></li>
+    <li><a class="waves-effect waves-red" href="portfolio.html">Portfolio</a></li>
+    <li><a class="waves-effect waves-red" href="contact.html">Contact</a></li>
+  </ul>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
-
-    </section>
-
-  </div>
-
-  <footer>
+<div id="index-banner" class="parallax-container">
+  <div class="section">
     <div class="container">
-      Copyright &copy;
+      <br><br>
+      <h1 class="header center white-text text-lighten-2">Contact Information</h1>
+    </div>
+  </div>
+</div>
+
+</body>
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="last_name" type="text" class="validate">
+        <label for="last_name">Last Name</label>
+      </div>
+    </div>
+    <!-- <div class="row">
+            <div class="input-field col s12">
+              <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+              <label for="disabled">Disabled</label>
+            </div>
+          </div> -->
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="password" type="password" class="validate">
+        <label for="password">Password</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate">
+        <label for="email">Email</label>
+      </div>
+    </div>
+    <!-- <div class="row">
+            <div class="col s12">
+              This is an inline input field:
+              <div class="input-field inline">
+                <input id="email_inline" type="email" class="validate">
+                <label for="email_inline">Email</label>
+                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+              </div>
+            </div>
+          </div> -->
+        </form>
+      </div>
+      
+    </body>
+  
+    <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+            <h5>
+                <center>Bio</center>
+              </h5>
+              <p>
+                <center>
+                  Daniel Mata</center>
+              </p>
+              <p>
+                <center>This is my Portfolio website</center>
+              </p>
+        </div>
+  
+      </div>
     </div>
   </footer>
-</body>
+
+
 
 </html>
