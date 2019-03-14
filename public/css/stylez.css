@@ -39,8 +39,9 @@ html, body {
     position: relative;
     text-align:center;
     top: 50px;
+    opacity: .5;
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
-    color:white;
+    color:black;
     }
     
     /* Supporting */
@@ -55,3 +56,9 @@ html, body {
     height: 100px;
     width: 100x;
     }
+
+    /*======================resume =============*/
+/* Start resume */
+
+
+/* End resume */

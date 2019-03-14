@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dannys Page</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="public/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="public/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+<!doctype html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href="public/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="public/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="public/css/stylez.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-
-  <!-- Compiled and minified CSS -->
+    <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
   <!-- Compiled and minified JavaScript -->
@@ -24,44 +20,42 @@
   <script src="public/js/init.js"></script>
   <script src="public/js/index.js"></script>
 
-</head>
+  </head>
+  
+  <header>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+      </header>
+      <!-- --sideNavBar-- -->
+        <ul id="slide-out" class="sidenav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="https://i.ndtvimg.com/i/2017-10/thali_650x400_61508157304.jpg">
+            </div>
+            <a href="#name"><span class="white-text name">Daniel Mata</span></a>
+            <a href="#email"><span class="white-text email">dmata62087@gmail.com</span></a>
+          </div>
+        </li>
+        <li><a class="waves-effect waves-red" href="index.html">Home</a></li>
+        <li><a class="waves-effect waves-red" href="portfolio.html">Portfolio</a></li>
+        <li><a class="waves-effect waves-red" href="contact.html">Contact</a></li>
+        <li><a class="waves-effect waves-red" href="https://drive.google.com/file/d/1IVlCvqHsg4aJ7fWOfsPE6us95tYZOvqI/view">Resume</a></li>
+      </ul>
 
-<header>
-  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-</header>
-
-<!-- --sideNavBar-- -->
-<ul id="slide-out" class="sidenav">
-  <li>
-    <div class="user-view">
-      <div class="background">
-        <img src="https://i.ndtvimg.com/i/2017-10/thali_650x400_61508157304.jpg">
+  <body>
+    
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <h1>Portfolio</h1>
+        </div> 
       </div>
-      <a href="#name"><span class="white-text name">Daniel Mata</span></a>
-      <a href="#email"><span class="white-text email">dmata62087@gmail.com</span></a>
     </div>
-  </li>
-  <li><a class="waves-effect waves-red" href="index.html">Home</a></li>
-  <li><a class="waves-effect waves-red" href="portfolio.html">Portfolio</a></li>
-  <li><a class="waves-effect waves-red" href="contact.html">Contact</a></li>
-</ul>
 
-<div id="index-banner" class="parallax-container">
-  <div class="section no-pad-bot">
-    <div class="container">
-      <br><br>
-      <h1 class="header center white-text text-lighten-2">About Me </h1>
-    </div>
-  </div>
-</div>
-
-
-<body>
-
-  <div class="container">
+  <div class="container" id="main">
     <div class="col s2">
       <img src="IMG_3390.jpg" class="auth-image" alt="Daniel Mata">
     </div>
@@ -88,26 +82,26 @@
   </div>
 
 
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h5>
+            <center>Bio</center>
+          </h5>
+          <p>
+            <center>
+              Daniel Mata</center>
+          </p>
+          <p>
+            <center>This is my Portfolio website</center>
+          </p>
+        </div>
+  
+      </div>
+    </div>
+  </footer>
 </body>
 
-<footer class="page-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h5>
-          <center>Bio</center>
-        </h5>
-        <p>
-          <center>
-            Daniel Mata</center>
-        </p>
-        <p>
-          <center>This is my Portfolio website</center>
-        </p>
-      </div>
-
-    </div>
-  </div>
-</footer>
 
 </html>

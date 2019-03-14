@@ -61,7 +61,9 @@
    margin: 0;
    background-color: whitesmoke;
    color: black;
+   opacity: .5;
  }
+
  
  #index-banner {
 
@@ -176,4 +178,10 @@ p3, p4, p5 {
 p6  {
 
   font-size: 30px;
+}
+
+#main {
+
+  padding: 50px;
+
 }
